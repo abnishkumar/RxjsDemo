@@ -62,7 +62,33 @@ import { ObservablescratchComponent } from './observablescratch/observablescratc
     ObservablescratchComponent
   ],
   exports: [
-    CombineLatestComponent
+    CombineLatestComponent,
+    ConcatComponent,
+    MergeComponent,
+    ZipComponent,
+    StartWithComponent,
+    WithLatestFromComponent,
+    FromComponent,
+    FromPromiseComponent,
+    FromEventComponent,
+    OfComponent,
+    DebounceTimeComponent,
+    DistinctUntilChangedComponent,
+    FilterComponent,
+    TakeComponent,
+    TakeUntilComponent,
+    BufferTimeComponent,
+    ConcatMapComponent,
+    MapComponent,
+    MergeMapComponent,
+    ScanComponent,
+    SwitchMapComponent,
+    TapComponent,
+    ShareComponent,
+    BehaviourSubjectComponent,
+    SubjectComponent,
+    HotColdObservavleComponent,
+    ObservablescratchComponent
   ]
 })
 export class RxModule { }

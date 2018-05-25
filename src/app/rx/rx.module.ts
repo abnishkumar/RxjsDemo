@@ -25,7 +25,7 @@ import { TapComponent } from './utility/tap/tap.component';
 import { ShareComponent } from './multicasting/share/share.component';
 import { BehaviourSubjectComponent } from './behaviour-subject/behaviour-subject.component';
 import { SubjectComponent } from './subject/subject.component';
-import { HotColdObservavleComponent } from './hot-cold-observavle/hot-cold-observavle.component';
+import { HotColdObservableComponent } from './hot-cold-observavle/hot-cold-observavle.component';
 import { ObservablescratchComponent } from './observablescratch/observablescratch.component';
 
 @NgModule({
@@ -58,7 +58,7 @@ import { ObservablescratchComponent } from './observablescratch/observablescratc
     ShareComponent,
     BehaviourSubjectComponent,
     SubjectComponent,
-    HotColdObservavleComponent,
+    HotColdObservableComponent,
     ObservablescratchComponent
   ],
   exports: [
@@ -87,7 +87,7 @@ import { ObservablescratchComponent } from './observablescratch/observablescratc
     ShareComponent,
     BehaviourSubjectComponent,
     SubjectComponent,
-    HotColdObservavleComponent,
+    HotColdObservableComponent,
     ObservablescratchComponent
   ]
 })

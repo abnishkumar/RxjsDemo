@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HotColdObservavleComponent } from './hot-cold-observavle.component';
+import { HotColdObservableComponent } from './hot-cold-observavle.component';
 
 describe('HotColdObservavleComponent', () => {
-  let component: HotColdObservavleComponent;
-  let fixture: ComponentFixture<HotColdObservavleComponent>;
+  let component: HotColdObservableComponent;
+  let fixture: ComponentFixture<HotColdObservableComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ HotColdObservavleComponent ]
+      declarations: [ HotColdObservableComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HotColdObservavleComponent);
+    fixture = TestBed.createComponent(HotColdObservableComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

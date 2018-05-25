@@ -8,7 +8,7 @@ export class Display {
 
     }
 
-    displayResult(value: string) {
+    public displayResult(value: string) {
         // debugger;
         if (!this.dv) {
             this.dv = this.display.nativeElement;

@@ -11,7 +11,6 @@ import { FromPromiseComponent } from './creation/from-promise/from-promise.compo
 import { FromEventComponent } from './creation/from-event/from-event.component';
 import { OfComponent } from './creation/of/of.component';
 import { DebounceTimeComponent } from './filtering/debounce-time/debounce-time.component';
-import { DistinctUntilChangedComponent } from './filtering/distinct-until-changed/distinct-until-changed.component';
 import { FilterComponent } from './filtering/filter/filter.component';
 import { TakeComponent } from './filtering/take/take.component';
 import { TakeUntilComponent } from './filtering/take-until/take-until.component';
@@ -44,7 +43,6 @@ import { ObservablescratchComponent } from './observablescratch/observablescratc
     FromEventComponent,
     OfComponent,
     DebounceTimeComponent,
-    DistinctUntilChangedComponent,
     FilterComponent,
     TakeComponent,
     TakeUntilComponent,
@@ -73,7 +71,6 @@ import { ObservablescratchComponent } from './observablescratch/observablescratc
     FromEventComponent,
     OfComponent,
     DebounceTimeComponent,
-    DistinctUntilChangedComponent,
     FilterComponent,
     TakeComponent,
     TakeUntilComponent,

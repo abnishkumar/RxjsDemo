@@ -5,6 +5,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './merge-map.component.html',
   styleUrls: ['./merge-map.component.css']
 })
+/*
+SwitchMap operator has outer observable and inner observable.
+*/
 export class MergeMapComponent implements OnInit {
 
   constructor() { }

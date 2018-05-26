@@ -10,6 +10,7 @@ import { Display } from '../baseDisplay';
 })
 
 /*
+Reactive programming is programming with asynchronous data streams.
 ***************keep in mind*************
 What is a Stream?
 A stream in the RxJS world simply represents values over time. Users sending chat messages, 
@@ -18,9 +19,12 @@ represent the basic concept of values (or events) that take place over a period 
 So, a stream is simply a concept. One that's necessary to understand, however, because Observables
 are what facilitates a stream.
 
+***Observables, Observers & Subscriptions***
 1.An observable is a function that produces a stream of values to an observer over time. 
 2.When you subscribe to an observable, you are an observer.
 3.An observable can have multiple observers.
+4.observers read values coming from an observable. An observer is simply a set of callbacks
+ that accept notifications coming from the observer, which include:next,error,complete
 */
 
 export class ObservablescratchComponent extends Display implements OnInit, AfterViewInit {
